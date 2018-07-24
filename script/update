@@ -38,7 +38,7 @@ solutions = [
     "custom_vars": {{
       "checkout_nacl": False
     }},
-    "custom_deps": {{}},
+    "custom_deps": {{'src/third_party/webrtc' : 'https://github.com/agouaillard/perc-webrtc'}},
   }},
 ]
 {cache_dir_line}
